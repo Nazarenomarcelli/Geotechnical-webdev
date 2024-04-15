@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import "http://fonts.googleapis.com/css?family=Raleway:400,700"; 
+
+
+/* Title: Calendar allign */
+
+.title-container {
+  text-align: center;
+}
+
+/*Calendar*/
+ol.calendar {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow-x: auto;
+    padding-bottom: 2em;
+    gap: 0.5em;
+    margin: 0 auto;
+    width: fit-content; /* Optional: Set a width to prevent stretching */
+    li {
+      flex: 0 0 7em;
+      display: block;
+      padding: 0.25em;
+      border: solid #000000 1px;
+      border-radius: 10px;
+      text-align: center;
+      div {
+        &:nth-child(1) {
+          letter-spacing: -0.04em;
+          color: #000000;
+        }
+        &:nth-child(2) {
+          font-size: 2em;
+          font-weight: 800;
+          color: rgb(255, 0, 0);
+        }
+      }
+    }
+  }

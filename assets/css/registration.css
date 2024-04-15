@@ -1,0 +1,10 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import "http://fonts.googleapis.com/css?family=Raleway:400,700"; 
+ 
+ 
+ /* FORMS CONTAINER */
+ .form-container { /* Target the container class (or form if not using) */
+    margin: 0 auto;
+    width: fit-content; /* Optional: Set a width to prevent stretching */
+}
